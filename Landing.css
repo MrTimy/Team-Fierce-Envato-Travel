@@ -1,0 +1,592 @@
+#navdiv{
+    height: 115.6px;
+    text-shadow: aqua;
+   
+}
+#navA{
+    padding:0 155px 0 82px;
+    font-size: 35px;
+    color: #443DF5;
+    font-family: Catamaran;
+    font-weight: 600;
+}
+#liA{
+    padding: 7px  20px 0 0;
+}
+#liA a{
+    font-size: 20px;
+    line-height: 147%;
+    color: #333333;
+    font-weight: bold;
+    font-family: Roboto;
+}
+#searh{
+    border: 1px solid #443DF5 ; 
+    font-size: 20px;
+    font-family: Roboto;
+}
+#owl{
+    height: 400px;
+    margin-top: 90px;
+}
+.txt{
+    font-size: 60px;
+    font-weight: bolder;
+    margin: 79px 0 0  80px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 60px;
+color: #000000;
+}
+.start{
+    position: absolute;
+    height: 59px;
+    background: #443DF5;
+    border-radius: 35.5px;
+    width: 30%;
+    margin: 45px 0 0 80px;
+  }
+.start a{
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+    position: absolute;
+    margin: 9px 0 0 16px;
+}
+#box{
+    border-radius: 10px;
+    height: 400px;
+    max-width: 100%;
+
+}
+#relax{
+border-radius: 10px;
+height: 400px;
+}
+#go{
+    margin : 130px 0 50px 470px; 
+}
+.do{
+    
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 36px;
+    color: #443DF5;
+}
+.diaspora{
+    width: 35%;
+    height: 45px;
+    border-radius: 34px;
+    background-color: white;
+    margin: -329px 0 0 201px;
+}
+.topright{
+    text-decoration: none;
+    position: absolute;
+margin: 9px 0 0 50px;
+    color: #443DF5;
+    font-size: 18px;
+    font-family: Roboto;
+}
+#diaspora1{
+    height: 269px;
+    opacity:0;
+    margin-top: -80px;
+}
+#diaspora1:hover{
+    opacity:0.75;
+    width:100%;
+    height: 369px;
+    transition: all 0.2s ease-in-out 0.4s;
+    background-color:rgb(247, 231, 231) ;
+}
+#diaspora2{
+    width: 50%;
+    height: 45px;
+    background-color:#443DF5; 
+    border-radius: 30px;
+    position: absolute;
+    margin: 266px 0 0 90px;
+}
+#diaspora2 a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    font-family: Roboto;
+    margin: 8px 0 0 19px; 
+}
+#gallery{
+    background: #F3F2FF;
+    height: 740px;
+    border-radius: 8px;
+}
+
+#pic{
+   max-width: 100%;
+   border-radius: 10px;
+}
+#date{
+    background-color:#443DF5; 
+    height: 325px;
+    width: 85%;
+    border-radius: 10px;
+    margin: 185px 0 0 104px;
+}
+.begin{
+    margin: 25px 0 0 295px;
+    position: absolute;
+}
+.begin p{
+    font-size: 36px;
+    font-family: Roboto;
+    color: #FFFFFF;
+}
+#where{
+    margin: 135px 0 0 75px;
+    position: absolute;
+}
+#where p{
+    font-family: Roboto;
+font-size: 16px;
+color: #FFFFFF;
+}
+#button{
+    width: 17%;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin:195px 0 0  75px;
+}
+#sel1{
+    font-size: 24px;
+    border-radius: 30px;
+    height: 60px;
+    border: 2px solid white;
+    background-color:#443DF5; 
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+
+#where1{
+    margin: 135px 0 0 328px;
+    position: absolute;
+}
+#where1 p{
+    font-family: Roboto;
+font-size: 16px;
+color: #FFFFFF;
+}
+#button1{
+    width: 17%;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin:195px 0 0  324px;
+}
+#where2{
+    margin: 135px 0 0 628px;
+    position: absolute;
+}
+#where2 p{
+    font-family: Roboto;
+font-size: 16px;
+color: #FFFFFF;
+}
+#button2{
+    width: 17%;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin:195px 0 0  620px;
+}
+#search{
+    width: 17%;
+    height: 60px;
+    position: absolute;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin:195px 0 0  873px;
+}
+#search a{
+    text-decoration: none;
+    font-size: 24px;
+    position: absolute;
+    margin: 9px 0 0 20px;
+color: #FFFFFF;
+}
+#search:hover{
+    background-color: whitesmoke;
+    color:#443DF5 ;
+}
+#moon{
+    margin: 20px 0px 0 78px;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+width: 78%;
+font-size: 20px;
+color: #443DF5;
+}
+#moon li{
+    margin-right: 50px;
+}
+.zuri{
+    width: 100%;
+    height: 350px;
+    background: #F3F2FF;
+border-radius: 8px;
+margin: 65px 0 0 -130px;
+}
+.zuri h3{
+font-family: Roboto;
+font-weight: 500;
+font-size: 36px;
+color: #000000;
+position: absolute;
+margin: 30px 0 0 30px;
+}
+.zuri p{
+position: absolute;
+margin: 90px 0 0 30px;
+font-family: Roboto;
+font-size: 18px;
+color: #333333;
+}
+#diaspor{
+    width: 30%;
+    height: 60px;
+    background-color:#443DF5; 
+    border-radius: 30px;
+    position: absolute;
+    margin: 255px 0 0 30px;
+}
+#diaspor a{
+    text-decoration: none;   
+position: absolute;
+margin: 16px 0 0 27px;
+font-family: Roboto;
+font-size: 18px;
+color: #FFFFFF;
+}
+.price{
+    width: 40%;
+    height: 100px;
+    position: absolute;
+    margin: 220px 0 0 370px;
+}
+.price p{
+    position: absolute;
+    margin-top: 0px;
+    font-family: Roboto;
+    font-size: 24px;
+    letter-spacing: -0.045em;
+    color: #443DF5;
+}
+.price h1{    
+position: absolute;
+font-family: Roboto;
+font-size: 64px;
+letter-spacing: -0.045em;
+color: #443DF5;
+margin:40px 0 0 17px;
+}
+#pro{
+    width: 75%;
+    margin: 10px 0 0 105px;
+}
+.footer{
+    background: #443DF5;
+    width: 100%;
+    color:white;}
+#names{
+        position: absolute;
+        font-family: Catamaran;
+        font-weight: 600;
+        font-size: 35px;
+        color: #FFFFFF;
+            }
+#FAVICON{
+    margin-left: -12px;
+}
+#FAVICON a{
+    border-bottom: none;
+}
+#font{
+    font-size: 25px;
+    margin: 65px 0 0 15px;
+    color: #FFFFFF;
+}
+#head{
+    font-size: 16px;
+    font-family: Roboto;
+}
+#goto{
+font-family: Roboto;
+font-weight: 500;
+color: #FFFFFF;
+font-size: 14px
+}
+#copyright{
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+}
+#copyright p{
+    font-size: 16px;
+    position: absolute;
+    margin: 10px 0 0 537px;
+    font-family: Roboto;
+    color: white;
+}
+
+
+
+@media screen and (min-width:320px)and (max-width:480px){
+
+    #navdiv{
+        height: 387px;
+        text-shadow: aqua;
+       
+    }
+    .txt{
+        margin: 13px 0 30px  3px;
+        font-family: Roboto;
+    font-style: normal;
+    font-size: 26px;
+    color: #000000;
+    }
+
+    .start{
+        position: absolute;
+        height: 59px;
+        background: #443DF5;
+        border-radius: 35.5px;
+        width: 46%;
+        margin: -19px 0 0 2px;
+      }
+      .start a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        margin: 14px 0 0 22px;
+    }
+    .box{
+        border-radius: 10px;
+        background-image: url('images/pattern-formation-wild-animals-south-africa-34098.jpg');
+        background-size: contain;
+        max-width: 100%;
+        background-repeat: no-repeat;
+        height: 300px;
+    }
+    #box{
+        border-radius: 10px;
+        height: 285px;
+        width: 144%;
+        margin:55px 0  25px 0;
+       position: relative;
+        max-width: 100%;
+    
+    }
+    #relax{
+    border-radius: 10px;
+    height: 285px;
+    max-width: 100%;
+        }
+    #go{
+        margin : 54px 0 50px 15px; 
+    }
+    .do{
+    
+        font-family: Roboto;
+        font-weight: 500;
+        font-size: 22px;
+        color: #443DF5;
+    }
+    #pic{
+        max-width: 100%;
+        margin-bottom: 112px;
+        position: relative;
+        border-radius: 10px;
+     }
+     #date{
+        background-color:#443DF5; 
+        height: 237px;
+        width: 98%;
+        border-radius: 10px;
+        margin: 7px 0 0 3px;
+    }
+    
+.begin{
+    margin: 4px 0 0 -14px;
+    position: absolute;
+}
+.begin p{
+    font-size: 20px;
+    font-family: Roboto;
+    color: #FFFFFF;
+}
+#where{
+    margin: 50px 0 0 -9px;
+    position: absolute;
+}
+#where p{
+    font-family: Roboto;
+font-size: 13px;
+color: #FFFFFF;
+}
+#button{
+    width: 38%;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin:85px 0 0  -11px;
+}
+#sel1{
+    font-size: 14px;
+    border-radius: 30px;
+    height: 32px;
+    width: 120px;
+    border: 2px solid white;
+    background-color:#443DF5; 
+    color: #FFFFFF;
+    font-family: Roboto;
+}
+
+#where1{
+    margin: 50px 0 0 168px;
+    position: absolute;
+}
+#where1 p{
+    font-family: Roboto;
+font-size: 14px;
+color: #FFFFFF;
+}
+#button1{
+    width: 14%;
+    height: 50px;
+    border-radius: 10px;
+    position: absolute;
+    margin:85px 0 0  152px;
+}
+#where2{
+    margin: 146px 0 0 -7px;
+    position: absolute;
+}
+#where2 p{
+    font-family: Roboto;
+font-size: 14px;
+color: #FFFFFF;
+}
+#button2{
+    width: 33%;
+    height: 50px;
+    border-radius: 10px;
+    /* position: absolute; */
+    margin:176px 0 0  -9px;
+}
+.diaspora{
+    width: 35%;
+    height: 45px;
+    border-radius: 34px;
+    background-color: white;
+    margin: -329px 0 0 175px;
+}
+#search{
+    width: 129px;
+    height: 33px;
+    border-radius: 30px;
+    border: 2px solid white;
+    margin:174px 0 0  152px;
+}
+#search a{
+    text-decoration: none;
+    font-size: 14px;
+    position: absolute;
+    margin: 4px 0 0 20px;
+color: #FFFFFF;
+}
+#search:hover{
+    background-color: whitesmoke;
+    color:#443DF5 ;
+}
+.zuri{
+    width: 101%;
+    height: 305px;
+    background: #F3F2FF;
+border-radius: 8px;
+margin: -90px 0 0 -3px;
+}
+.zuri h3{
+font-family: Roboto;
+font-weight: 500;
+font-size: 19px;
+color: #000000;
+position: absolute;
+margin: 14px 0 0 5px;
+}
+.zuri p{
+position: absolute;
+margin: 47px 0 0 13px;
+font-family: Roboto;
+font-size: 14px;
+text-align: justify;
+color: #333333;
+}
+#diaspor{
+    width: 36%;
+    height: 45px;
+    background-color:#443DF5; 
+    border-radius: 30px;
+    position: absolute;
+    margin: 215px 0 0 6px;
+}
+#diaspor a{
+    text-decoration: none;   
+position: absolute;
+margin: 11px 0 0 2px;
+font-family: Roboto;
+font-size: 16px;
+color: #FFFFFF;
+}
+.price{
+    width: 40%;
+    height: 100px;
+    position: absolute;
+    margin: 205px 0 0 186px;
+}
+.price p{
+    position: absolute;
+    margin-top: 0px;
+    font-family: Roboto;
+    font-size: 20px;
+    letter-spacing: -0.045em;
+    color: #443DF5;
+}
+.price h1{    
+position: absolute;
+font-family: Roboto;
+font-size: 28px;
+letter-spacing: -0.045em;
+color: #443DF5;
+margin:29px 0 0 0;
+}
+#pro{
+    width: 95%;
+    margin: 10px 0 0 1px;
+}
+#copyright{
+    background-color: grey;
+    width: 100%;
+    height: 50px;
+}
+#copyright p{
+    font-size: 14px;
+    position: absolute;
+    margin-left: 39px;
+    font-family: Roboto;
+    color: white;
+}
+}
