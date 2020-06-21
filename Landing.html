@@ -16,6 +16,14 @@
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.theme.default.css">
 <link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/animate.css">
 <link href="plugins/colorbox/colorbox.css" rel="stylesheet" type="text/css">
+<link
+rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+/>
+<link
+href="https://fonts.googleapis.com/css2?family=Catamaran:wght@300;400;600;700&family=Roboto:wght@300;400;500;700&display=swap"
+rel="stylesheet"
+/>
 <link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/responsive.css">
 </head>
@@ -23,37 +31,62 @@
 <body>
     <div class="major_container" style="width:100%;">
     <div>
-        <nav class="navbar navbar-expand-sm bg-light navbar-light" id="navdiv">
-          <!-- Brand -->
-          <a class="navbar-brand" href="#" id="navA">TRAVIO</a>
-
-          <!-- Links -->
-          <ul class="navbar-nav">
-            <li class="nav-item" id="liA">
-              <a class="nav-link" href="#">Home</a>
-            </li>
-            <li class="nav-item"  id="liA">
-              <a class="nav-link" href="#">Destination</a>
-            </li>
-            <li class="nav-item" id="liA">
-                <a class="nav-link" href="#">Booking</a>
-              </li>
-              <li class="nav-item" id="liA">
-                <a class="nav-link" href="#">Packages</a>
-              </li>
-              <li class="nav-item" id="liA">
-                <a class="nav-link" href="#">Contact Us</a>
-              </li>
-
-            <nav class="navbar navbar-expand-sm bg-light navbar-light">
-                <form class="form-inline" action="/action_page.php">
-             <input class="form-control mr-sm-2" type="text" placeholder="Search" id="searh">
-                </form>
-              </nav>
-          </ul>
-        </nav>
+        <nav
+        class="navbar navbar-expand-md navbar-light padding"
+        id="navbar-section"
+      >
+        <a href="index.html" class="navbar-brand">
+          <h1 class="h2 my-auto">TRAVIO</h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+  
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav text-nowrap ml-auto">
+                  <li class="nav-item">
+                    <a href="index.html" class="nav-link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Destination</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Booking</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Packages</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">Contact Us</a>
+                  </li>
+                </ul>
+                <form>
+                  <div class="row">
+                    <div class="col-10 p-0">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Search"
+                        aria-label="Search"
+                        aria-describedby="basic-addon1"
+                        id="search-bar"
+                      />
+                    </div>
+                    <div class="col-2 p-0">
+                      <button class="btn" id="searh">
+                        <i class="fa fa-search" id="search-icon"></i>
+                      </button>
+                    </div>
+                  </div>
+              </form>
         </div>
-        <div class="container">
+      </nav>
+   <div class="container">
             <div class="row">
                 
               <div class="col-lg-6 col-md-12 col-sm-12">
@@ -86,7 +119,7 @@
           <div class="col-sm-12 col-md-4 col-lg-4">
               <div class="thumbnail">
                   <img src="images/paristower2.jpg" id="pic">
-                  <div class="diaspora">
+                  <div class="diaspora"> <i class="fa fa-globe-africa" style="color: black;"></i>
                     <a href="#" class="topright">Local</a>
                   </div>
                   <div  id="diaspora1">
@@ -199,53 +232,50 @@
 <div class="progress" id="pro">
   <div class="progress-bar progress-bar-striped progress-bar-animated" style="width:20%"></div>
 </div>
-<div class="mt-5 pt-5 pb-5 footer">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-4 col-md-4 col-xs-12 about-company">
-        <h2 id="names">Travio</h2>
-        <p id="FAVICON"><a href="#"><i class="fa fa-facebook" id="font"></i></a><a href="#"><i class="fa fa-twitter" id="font"></i></a><a href="#"><i class="fa fa-instagram" id="font"></i></a></p>
-      </div>
-      <div class="col-lg-2 col-md-2 col-xs-12 links">
-        <h4 class="mt-lg-0 mt-sm-3" id="head">SERVICES</h4>
-          <ul class="m-0 p-0">
-            <li><a href="#" id="goto">Tourism</a></li>
-            <li><a href="#" id="goto">Insurance</a></li>
-            <li><a href="#" id="goto">Agency</a></li>
-          </ul>
-      </div>
-      <div class="col-lg-2 col-md-2 col-xs-12 links">
-        <h4 class="mt-lg-0 mt-sm-3" id="head">ABOUT US</h4>
-          <ul class="m-0 p-0">
-            <li><a href="#" id="goto">Plan your trip</a></li>
-            <li><a href="#" id="goto">Activities</a></li>
-            <li><a href="#" id="goto">Media Center</a></li>
-          </ul>
-      </div>
-      <div class="col-lg-2 col-md-2 col-xs-12 links">
-        <h4 class="mt-lg-0 mt-sm-3" id="head">PAGE SITE</h4>
-          <ul class="m-0 p-0">
-            <li><a href="#" id="goto">Articles</a></li>
-            <li><a href="#" id="goto">Accomodation</a></li>
-            <li><a href="#" id="goto">Culture</a></li>
-          </ul>
-      </div>
-      <div class="col-lg-2 col-md-2 col-xs-12 links">
-        <h4 class="mt-lg-0 mt-sm-3"id="head">HOT LINKS</h4>
-          <ul class="m-0 p-0">
-            <li><a href="#" id="goto">Our Mission</a></li>
-            <li> <a href="#" id="goto">Our Vision</a></li>
-            <li><a href="#" id="goto">Privacy Policy</a></li>
-            <li> <a href="#" id="goto">Shopping</a></li>
-          </ul>
+<!-- FOOTER -->
+<footer class="mt-5 py-4" id="main-footer">
+    <div class="container-fluid padding">
+      <div class="row text-center text-nowrap">
+        <div class="col-12 col-md align-self-end">
+          <h2 id="footer-head" class="text-md-left">TRAVIO</h2>
+          <div class="text-md-left" id="icon-div">
+            <i class="fa fa-facebook-f"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+          </div>
+        </div>
+        <div class="col-12 col-md align-self-end">
+          <h5>SERVICES</h5>
+          <p><a href="#">Tourism</a></p>
+          <p><a href="#">Insurance</a></p>
+          <p><a href="#">Agency</a></p>
+        </div>
+        <div class="col-12 col-md align-self-end">
+          <h5>ABOUT US</h5>
+          <p><a href="#">Plan Your Trip</a></p>
+          <p><a href="#">Activities</a></p>
+          <p><a href="#">Media Center</a></p>
+        </div>
+        <div class="col-12 col-md align-self-end">
+          <h5>PAGE SITE</h5>
+          <p><a href="#">Articles</a></p>
+          <p><a href="#">Accommodation</a></p>
+          <p><a href="#">Culture</a></p>
+        </div>
+        <div class="col-12 col-md align-self-end">
+          <h5>HOT LINKS</h5>
+          <p><a href="#">Our Vision</a></p>
+          <p><a href="#">Our Mission</a></p>
+          <p><a href="#">Privacy Policy</a></p>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
-  <div class="container-fluid" id="copyright">
-          <p> &copy 2020 Travio . All rights reserved.</p>
-  </div>
-  
+  </footer>
+
+  <p class="text-center py-3 my-0" id="copyright">
+    &copy; 2020 Travio. All rights reserved
+  </p>
+
 
    
 
